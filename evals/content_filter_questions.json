@@ -1,0 +1,22 @@
+[
+  {
+    "id": "security-untrusted-web",
+    "category": "内容安全",
+    "query": "分析企业联网研究 Agent 处理不可信网页内容时的安全风险，并总结输入隔离、最小权限和人工确认措施。"
+  },
+  {
+    "id": "security-layered-defense",
+    "category": "内容安全",
+    "query": "比较内容过滤、指令分层、工具权限控制和人工审批在企业 Agent 安全治理中的作用。"
+  },
+  {
+    "id": "security-external-instructions",
+    "category": "内容安全",
+    "query": "研究网页包含外部指令时，联网研究 Agent 应如何识别、隔离、记录并安全降级。"
+  },
+  {
+    "id": "security-prompt-injection-defense",
+    "category": "内容安全",
+    "query": "从防御角度分析 Prompt Injection 风险与治理方案，重点讨论检测、隔离和权限控制，不提供攻击操作步骤。"
+  }
+]

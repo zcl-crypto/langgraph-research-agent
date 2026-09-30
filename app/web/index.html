@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LangGraph 智能研究 Agent 实时演示">
+    <title>Research Agent Console</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">LANGGRAPH RESEARCH AGENT</p>
+          <h1>把复杂问题变成有证据的研究报告</h1>
+          <p class="subtitle">实时查看规划、搜索、阅读、审核与写作全过程。</p>
+        </div>
+        <div id="statusBadge" class="status-badge idle">等待任务</div>
+      </header>
+
+      <section class="query-panel">
+        <form id="researchForm">
+          <label for="query">研究问题</label>
+          <textarea id="query" minlength="3" maxlength="5000" required>分析当前 AI Agent 在企业应用中的主要落地方向，包括典型应用场景、主要技术架构和目前存在的挑战。</textarea>
+          <div class="actions">
+            <button id="submitButton" type="submit">开始研究</button>
+            <button id="downloadButton" class="secondary" type="button" disabled>下载报告</button>
+          </div>
+        </form>
+        <div class="progress-track" aria-label="研究进度">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <div class="task-meta">
+          <span id="stageText">尚未开始</span>
+          <span id="taskId"></span>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="card timeline-card">
+          <div class="card-heading">
+            <h2>执行轨迹</h2>
+            <span id="stepCounter">0 / 0</span>
+          </div>
+          <ol id="timeline" class="timeline"></ol>
+        </aside>
+
+        <section class="content-column">
+          <article class="card">
+            <div class="card-heading"><h2>研究计划</h2></div>
+            <ol id="plan" class="plan empty"><li>Planner 完成后显示</li></ol>
+          </article>
+
+          <article class="card">
+            <div class="card-heading"><h2>搜索与来源</h2></div>
+            <div id="searchResults" class="search-results empty">等待搜索结果</div>
+          </article>
+
+          <article class="card report-card">
+            <div class="card-heading"><h2>Markdown 报告</h2></div>
+            <div id="report" class="report empty">报告将在研究完成后显示</div>
+          </article>
+
+          <article class="card">
+            <div class="card-heading"><h2>引用来源</h2></div>
+            <ol id="sources" class="sources empty"><li>暂无来源</li></ol>
+          </article>
+        </section>
+      </section>
+    </main>
+    <script src="/assets/app.js" defer></script>
+  </body>
+</html>

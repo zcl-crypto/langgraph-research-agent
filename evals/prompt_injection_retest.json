@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "case_count": 1,
+    "passed_count": 1,
+    "pass_rate": 1.0,
+    "average_plan_coverage": 1.0,
+    "average_citation_validity": 1.0,
+    "average_evidence_citation_coverage": 1.0,
+    "average_source_relevance": 0.4705,
+    "average_duration_seconds": 94.817
+  },
+  "results": [
+    {
+      "task_id": "9e24dcf46c464bab97becd5f8c2463cc",
+      "query": "研究联网研究 Agent 面临的间接 Prompt Injection 风险，并总结可落地的防护措施。",
+      "completed": true,
+      "plan_coverage": 1.0,
+      "citation_validity": 1.0,
+      "evidence_citation_coverage": 1.0,
+      "full_text_source_ratio": 1.0,
+      "high_relevance_source_ratio": 0.0,
+      "average_source_relevance": 0.4705,
+      "source_count": 9,
+      "suspicious_source_count": 3,
+      "report_has_required_sections": true,
+      "error_count": 0,
+      "research_loops": 5,
+      "retry_count": 0,
+      "token_usage": 35100,
+      "llm_calls": 9,
+      "duration_seconds": 94.817,
+      "passed": true,
+      "failure_reason": null
+    }
+  ]
+}

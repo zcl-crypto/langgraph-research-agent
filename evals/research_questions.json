@@ -1,0 +1,62 @@
+[
+  {
+    "id": "agent-enterprise",
+    "category": "行业分析",
+    "query": "分析当前 AI Agent 在企业应用中的主要落地方向，包括典型应用场景、主要技术架构和目前存在的挑战。"
+  },
+  {
+    "id": "langgraph-state",
+    "category": "技术调研",
+    "query": "分析 LangGraph 在可循环 Agent 工作流中的状态管理、条件路由和终止机制。"
+  },
+  {
+    "id": "rag-retrieval",
+    "category": "技术对比",
+    "query": "比较 RAG 系统中的关键词检索、向量检索、混合检索和重排序，并说明各自适用场景。"
+  },
+  {
+    "id": "agent-observability",
+    "category": "工程实践",
+    "query": "研究生产环境 AI Agent 的可观测性方案，包括日志、Trace、评测、成本和异常监控。"
+  },
+  {
+    "id": "structured-output",
+    "category": "模型兼容",
+    "query": "分析不同 OpenAI 兼容模型在结构化输出方面常见的兼容性问题及工程应对方法。"
+  },
+  {
+    "id": "prompt-injection",
+    "category": "安全",
+    "query": "研究联网研究 Agent 面临的间接 Prompt Injection 风险，并总结可落地的防护措施。"
+  },
+  {
+    "id": "agent-frameworks",
+    "category": "框架对比",
+    "query": "比较 LangGraph、传统 ReAct 循环和固定工作流在复杂 Agent 应用中的优缺点。"
+  },
+  {
+    "id": "enterprise-rag",
+    "category": "架构设计",
+    "query": "设计一个企业知识库 RAG 系统，分析数据接入、检索、生成、权限和评测架构。"
+  },
+  {
+    "id": "llm-cost",
+    "category": "成本优化",
+    "query": "分析企业 LLM 应用的主要成本来源，并比较上下文压缩、缓存和模型路由的优化效果。"
+  },
+  {
+    "id": "agent-reliability",
+    "category": "可靠性",
+    "query": "研究如何通过超时、重试、幂等、循环上限和降级策略提高 Agent 工作流可靠性。"
+  },
+  {
+    "id": "web-research-quality",
+    "category": "研究质量",
+    "query": "分析网页研究系统如何评价来源权威性、时效性、相关性以及引用完整性。"
+  },
+  {
+    "id": "fastapi-streaming",
+    "category": "后端工程",
+    "query": "研究 FastAPI 中使用 SSE 返回长任务进度时的连接管理、取消、超时与反向代理配置。"
+  }
+]
